@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Библиотека НГК</title>
+        <link rel="stylesheet" href="library_style.css">
+        <link rel="shortcut icon" href="ngk.ico" type="image/x-icon">
+        <!--These 4 external Files are necessary for Owl to function-->
+
+        <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.owlcarousel/1.31/owl.carousel.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.owlcarousel/1.31/owl.theme.css">
+        -->
+
+        <!--This link is both owl CSS files combined into one-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/g/jquery.owlcarousel@1.31(owl.carousel.css+owl.theme.css)">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontawesome/4.6.3/css/font-awesome.min.css">
+
+        <!--<script src="https://cdn.jsdelivr.net/jquery/2.2.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/jquery.owlcarousel/1.31/owl.carousel.min.js"></script>
+        -->
+
+        <!--This tag is both JS files combined-->
+        <script src="https://cdn.jsdelivr.net/g/jquery@2.2.4,jquery.owlcarousel@1.31"></script>
+
+    </head>
+    <body background="books.jpg">
+        <div id="wrapper">
+          <header>
+            <li><a href="library.html">
+              <img src="ngk.jpg" align="left" height="225" width="225">
+            </a></li>
+              <center><font face="Monotype Corsiva" size="+3"><h1 style="color:darkred">Библиотека</h1></font></center>
+              <center><font face="Monotype Corsiva" size="+2"><h1 style="color:darkred">Нижегородского Губернского Колледжа</h1></font></center>
+              <div class="navbar" style="z-index: 2;">
+                <!--Читателям-->
+                <div class="dropdown">
+                  <div class="dropbtn">Читателям</div>
+                  <div class="dropdown-one">
+                    <li><a href="library_izdatelstva.html">
+                      <div class="dItem" href="#">Издательства</div>
+                    </a></li>
+                    <li><a href="https://biblio.ngknn.ru/wp-content/uploads/2021/03/Госты-1.pdf">
+                      <div class="dItem" href="#">ГОСТы</div>
+                    </a></li>
+                    <li><a href="https://biblio.ngknn.ru/wp-content/uploads/2021/09/Положение-о-библиотеке-НГК.pdf">
+                      <div class="dItem" href="#">Положения о библиотеке</div>
+                    </a></li>
+                    <li><a href="https://biblio.ngknn.ru/wp-content/uploads/2019/12/Правила-пользования.pdf">
+                      <div class="dItem" href="#">Правила пользования</div>
+                    </a></li>
+                  </div>
+                </div>
+                <!--Ресурсы-->
+                <div class="dropdown">
+                  <div class="dropbtn">Ресурсы</div>
+                  <!--  Электронные ресурсы -->
+                  <div class="dropdown-one">
+                    <div id="link1" class="dItem" href="#">Электронные ресурсы
+                      <div class="dropdown-two">
+                        <li><a href="library_EBS.html">
+                          <div class="dItem" href="#">Полнотекстовые электронно-библиотечные системы</div>
+                        </a></li>
+                        <li><a href="library_estestvoznanie_i_tehnika.html">
+                          <div class="dItem" href="#">Естествознание и техника</div>
+                        </a></li>
+                        <!-- Гуманитарные науки -->
+                        <div id="link2" class="dItem" href="#">Гуманитарные науки
+                          <div class="dropdown-three">
+                            <li><a href="library_yazikoznanie.html">
+                              <div class="dItem" href="#">Языкознание</div>
+                            </a></li>
+                            <li><a href="library_istoria.html">
+                              <div class="dItem" href="#">История</div>
+                            </a></li>
+                            <li><a href="library_pravo.html">
+                              <div class="dItem" href="#">Право</div>
+                            </a></li>
+                            <li><a href="library_ekonomika.html">
+                              <div class="dItem" href="#">Экономика</div>
+                            </a></li>
+                            <li><a href="library_filosofia.html">
+                              <div class="dItem" href="#">Философия</div>
+                            </a></li>
+                          </div>
+                        </div>
+                        <li><a href="library_hud_litra_i_iskusstvo.html">
+                          <div class="dItem" href="#">Художественная литература и искусство</div>
+                        </a></li>
+                        <li><a href="library_enciclopedii_spravochniki_slovari.html">
+                          <div class="dItem" href="#">Энциклопедии, справочники, словари</div>
+                        </a></li>
+                        <li><a href="library_kraevedenie.html">
+                          <div class="dItem" href="#">Краеведение</div>
+                        </a></li>
+                      </div>
+                    </div>
+                  <!--Периодика-->
+                  <div class="dropdown-one">
+                    <div id="link1" class="dItem" href="#">Периодика
+                      <div class="dropdown-two">
+                        <!--1 корпус-->
+                        <div id="link2" class="dItem" href="#">1 корпус
+                          <div class="dropdown-three">
+                            <li><a href="https://biblio.ngknn.ru/wp-content/uploads/2021/06/09.02.07-Информационные-системы-и-программирование.pdf">
+                              <div class="dItem" href="#">Информационные системы и программирование</div>
+                            </a></li>
+                            <li><a href="https://biblio.ngknn.ru/wp-content/uploads/2021/06/09.02.05-Прикладная-информатика-_по-отраслям_.pdfl">
+                              <div class="dItem" href="#">Прикладная информатика (по отраслям)</div>
+                            </a></li>
+                            <li><a href="https://biblio.ngknn.ru/wp-content/uploads/2021/06/38.02.01-Экономика-и-бухгалтерский-учет-_по-отраслям_.pdf">
+                              <div class="dItem" href="#">Экономика и бухгалтерский учет (по отраслям)</div>
+                            </a></li>
+                            <li><a href="https://biblio.ngknn.ru/wp-content/uploads/2021/06/38.02.03-Операционная-деятельность-в-логистике.pdf">
+                              <div class="dItem" href="#">Операционная деятельность в логистике</div>
+                            </a></li>
+                            <li><a href="https://biblio.ngknn.ru/wp-content/uploads/2021/06/40.02.01-Право-и-организация-социального-обеспечения.pdf">
+                              <div class="dItem" href="#">Право и организация социального обеспечения</div>
+                            </a></li>
+                          </div>
+                        </div>
+                        <!--2 корпус-->
+                        <div id="link2" class="dItem" href="#">2 корпус
+                          <div class="dropdown-three">
+                            <li><a href="https://biblio.ngknn.ru/wp-content/uploads/2021/06/38.02.05-Товароведение-и-экспертиза-качества-потребительских-товаров.pdf">
+                              <div class="dItem" href="#">Товароведение и экспертиза качества потребительских товаров</div>
+                            </a></li>
+                            <li><a href="https://biblio.ngknn.ru/wp-content/uploads/2021/06/38.02.07-Банковское-дело.pdf">
+                              <div class="dItem" href="#">Банковское дело</div>
+                            </a></li>
+                            <li><a href="https://biblio.ngknn.ru/wp-content/uploads/2021/06/46.02.01-Документационное-обеспечение-управления-и-архивоведения.pdf">
+                              <div class="dItem" href="#">Документационное обеспечение управления и архивоведения</div>
+                            </a></li>
+                            <li><a href="https://biblio.ngknn.ru/wp-content/uploads/2021/06/38.02.04-Коммерция-по-отраслям.pdf">
+                              <div class="dItem" href="#">Коммерция (по отраслям)</div>
+                            </a></li>
+                          </div>
+                        </div>
+                        <!--3 корпус-->
+                        <div id="link2" class="dItem" href="#">3 корпус
+                          <div class="dropdown-three">
+                            <li><a href="https://biblio.ngknn.ru/wp-content/uploads/2021/06/04.02.01-Дошкольное-образование.pdf">
+                              <div class="dItem" href="#">Дошкольное образование</div>
+                            </a></li>
+                            <li><a href="https://biblio.ngknn.ru/wp-content/uploads/2021/06/04.02.02-Преподавание-в-начальных-классах.pdf">
+                              <div class="dItem" href="#">Преподавание в начальных классах</div>
+                            </a></li>
+                            <li><a href="https://biblio.ngknn.ru/wp-content/uploads/2021/06/04.02.04-Специальное-дошкольное-образование.pdf">
+                              <div class="dItem" href="#">Специальное дошкольное образование</div>
+                            </a></li>
+                            <li><a href="https://biblio.ngknn.ru/wp-content/uploads/2021/06/53.02.01-Музыкальное-образование.pdf">
+                              <div class="dItem" href="#">Музыкальное образование</div>
+                            </a></li>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>  
+                  </div>
+                </div>
+                <!--События-->
+                <div class="dropdown">
+                  <div class="dropbtn">События</div>
+                  <div class="dropdown-one">
+                    <li><a href="library_bookcrossing.html">
+                      <div class="dItem" href="#">Буккроссинг</div>
+                    </a></li>
+                    <li><a href="library_bolshoy_etnographicheskiy_dicktant.html">
+                      <div class="dItem" href="#">Большой этнографический диктант</div>
+                    </a></li>
+                  </div>
+                </div>
+                <!--Выставочный зал-->
+                <div class="dropdown">
+                  <div class="dropbtn">Выставочный зал</div>
+                  <div class="dropdown-one">
+                    <li><a href="library_znamenatelnye_i_pamyatnye_daty.html">
+                      <div class="dItem" href="#">Знаменательные и памятные даты</div>
+                    </a></li>
+                    <li><a href="library_poznayom_mir_v_iskusstve.html">
+                      <div class="dItem" href="#">Познаём мир в искусстве</div>
+                    </a></li>
+                    <li><a href="library_istoki.html">
+                      <div class="dItem" href="#">К истокам своим прикоснись</div>
+                    </a></li>
+                  </div>
+                </div>
+                <!--Ссылки-->
+                <div class="dropdown">
+                  <div class="dropbtn">Ссылки</div>
+                  <div class="dropdown-one">
+                    <li><a href="https://ngknn.ru">
+                      <div class="dItem" href="#">Сайт НГК</div>
+                    </a></li>
+                    <li><a href="https://vk.com/bibliongknn">
+                      <div class="dItem" href="#">ВКонтакте</div>
+                    </a></li>
+                    <li><a href="https://moodle.ngknn.ru">
+                      <div class="dItem" href="#">Moodle</div>
+                    </a></li>
+                  </div>
+                </div>
+                <!--Поисковая строка-->
+                <div class="search-container" style="float:right;">
+                  <form action="/action_page.php">
+                    <input type="text" placeholder="Поиск по сайту.." name="Поиск">
+                    <button type="submit">Найти</button>
+                  </form>
+                </div> 
+              </div>
+          </header>
+            <main>
+                <div class="prod-slider-container" style="z-index: 1;">
+                    <div class="inner-container">
+                      <div class="slider_header_text">
+                        <center><font face="Monotype Corsiva" size="+3"><h1 style="color:darkred">Энциклопедии, справочники, словари</h1></font></center>
+                      </div>
+
+                      <button class="accordion" style="font-size:50px; font-family: Monotype Corsiva;">Российская информационная сеть. Словари</button>
+                      <div class="panel">
+                        <p style="font-size:25px;">Сайт содержит более 50 словарей по разным областям деятельности: экономике, праву, технике, медицине, искусству и т.д.</p>
+                        <p style="font-size:25px;"><a href="https://dictionaries.rin.ru/">DICTIONARIES.RIN.RU</a></p>
+                      </div>
+
+                      <button class="accordion" style="font-size:50px; font-family: Monotype Corsiva;">Википедия</button>
+                      <div class="panel">
+                        <p style="font-size:25px;">Русскоязычная часть свободной многоязычной эниклопедии, включающая свыше 163 тысяч статей. Англоязычная версия содержит более 1 млн. 700 тыс. статей. Википедия позволяет найти обширную информацию по теме: статьи энциклопедии снабжены примечаниями, ссылками на печатные источники и ресурсы Интернета.</p>
+                        <p style="font-size:25px;"><a href="https://ru.wikipedia.org/">RU.WIKIPEDIA.ORG</a></p>
+                      </div>
+
+                      <button class="accordion" style="font-size:50px; font-family: Monotype Corsiva;">Мир словарей</button>
+                      <div class="panel">
+                        <p style="font-size:25px;">Коллекция словарей и энциклопедий по разным областям знаний: экономический, политический, социологический, юридический, медицинский, строительный и т.д. Всего свыше 30 названий.</p>
+                        <p style="font-size:25px;"><a href="https://gufo.me/">GUFO.ME</a></p>
+                      </div>
+
+                      <button class="accordion" style="font-size:50px; font-family: Monotype Corsiva;">Энциклопедия "Кругосвет"</button>
+                      <div class="panel">
+                        <p style="font-size:25px;">Сайт создан в помощь школьникам и студентам. Основные разделы: история, гуманитарные науки, культура и образование, медицина, наука и техника, науки о Земле, страны мира, спорт. Поиск ведется по одному или по всем разделам одновременно.</p>
+                        <p style="font-size:25px;"><a href="https://www.krugosvet.ru/">KRUGOSVET.RU</a></p>
+                      </div>
+
+                      <button class="accordion" style="font-size:50px; font-family: Monotype Corsiva;">Глоссарий.ру</button>
+                      <div class="panel">
+                        <p style="font-size:25px;">Служба тематических толковых словарей. На сайте представлено более 4000 глоссариев на экономические, биологические, технические и смежные темы. Простая система поиска.</p>
+                        <p style="font-size:25px;"><a href="http://glossary.ru/">GLOSSARY.RU</a></p>
+                      </div>
+
+                      <button class="accordion" style="font-size:50px; font-family: Monotype Corsiva;">Словари, справочники, энциклопедии</button>
+                      <div class="panel">
+                        <p style="font-size:25px;">Огромная коллекция ссылок на сетевые справочные ресурсы по гуманитарным наукам, медицине, программированию и пр.</p>
+                        <p style="font-size:25px;"><a href="LEBED.COM/BEZ-RUBRIKI/SLOVARI-SPRAVOCHNIKI-ENTSIKLOPEDII.HTM">LEBED.COM/BEZ-RUBRIKI/SLOVARI-SPRAVOCHNIKI-ENTSIKLOPEDII.HTM</a></p>
+                      </div>
+
+                      <button class="accordion" style="font-size:50px; font-family: Monotype Corsiva;">Люди</button>
+                      <div class="panel">
+                        <p style="font-size:25px;">Свыше 300 биографий известных людей из области науки, политики, экономики, искусства, спорта.</p>
+                        <p style="font-size:25px;"><a href="https://www.peoples.ru/">PEOPLES.RU</a></p>
+                      </div>
+
+                      <button class="accordion" style="font-size:50px; font-family: Monotype Corsiva;">Русский биографический словарь</button>
+                      <div class="panel">
+                        <p style="font-size:25px;">Основу настоящего словаря составляют статьи из Энциклопедического Словаря издательства Брокгауз и Ефрон и Нового Энциклопедического Словаря. В словаре содержится почти 15 000 биографий деятелей российской истории и культуры, а также статьи о русских полумифических и фольклорных персонажах, материалы тома "Россия", включающие обзоры российской истории, российской политической, правовой и финансовой систем, статьи по истории культуры и науки и т.д., написанные выдающимися учеными начала ХХ века.</p>
+                        <p style="font-size:25px;"><a href="http://www.rulex.ru/">RULEX.RU</a></p>
+                      </div>
+
+                      <button class="accordion" style="font-size:50px; font-family: Monotype Corsiva;">Мир энциклопедий. Энциклопедии online</button>
+                      <div class="panel">
+                        <p style="font-size:25px;">Интернет-версии энциклопедических изданий на русском языке (универсальных, отраслевых, региональных, специальных и персональных).</p>
+                        <p style="font-size:25px;"><a href="http://www.encyclopedia.ru/">ENCYCLOPEDIA.RU</a></p>
+                      </div>
+
+                      <button class="accordion" style="font-size:50px; font-family: Monotype Corsiva;">Природа науки. Энциклопедия</button>
+                      <div class="panel">
+                        <p style="font-size:25px;">Впервые на русском языке - уникальная энциклопедия Джеймса Трефила "Природа науки. 200 законов мироздания". Содержит статьи по физике, математике, астрономии, химии, наукам о земле, естественным наукам.</p>
+                        <p style="font-size:25px;"><a href="https://elementy.ru/trefil">ELEMENTY.RU/TREFIL</a></p>
+                      </div>
+
+                      <button class="accordion" style="font-size:50px; font-family: Monotype Corsiva;">Экологический словарь</button>
+                      <div class="panel">
+                        <p style="font-size:25px;">Словарь размещен на сайте научно-практического журанала "Экология производства", содержит около 4000 терминов.</p>
+                        <p style="font-size:25px;"><a href="http://www.ecoindustry.ru/dictionary.html">ECOINDUSTRY.RU/DICTIONARY.HTML</a></p>
+                      </div>
+
+                      <button class="accordion" style="font-size:50px; font-family: Monotype Corsiva;">FlorAnimal. Энциклопедия животных и растений</button>
+                      <div class="panel">
+                        <p style="font-size:25px;">Небольшая, хорошо структурированная иллюстрированная энциклопедия.</p>
+                        <p style="font-size:25px;"><a href="http://www.floranimal.ru/">FLORANIMAL.RU</a></p>
+                      </div>
+
+                      <button class="accordion" style="font-size:50px; font-family: Monotype Corsiva;">Калькулятор величин</button>
+                      <div class="panel">
+                        <p style="font-size:25px;">Сайт содержит справочную информацию, необходимую в решении задач, калькуляции смет и технических проектов. Футы, дюймы, литры… и еще около 1000 величин можно перевести в соответствующие единицы измерения других систем.</p>
+                        <p style="font-size:25px;"><a href="https://www.calc.ru/">WWW.CALC.RU</a></p>
+                      </div>
+
+                      <button class="accordion" style="font-size:50px; font-family: Monotype Corsiva;">Наш аквариум</button>
+                      <div class="panel">
+                        <p style="font-size:25px;">Информация по аквариумистике: энциклопедии рыб и растений, ответы на наиболее популярные вопросы, статьи по различным темам и многое другое. Есть ссылки на другие ресурсы.</p>
+                        <p style="font-size:25px;"><a href="http://our-aquarium.narod.ru/">OUR-AQUARIUM.NAROD.RU</a></p>
+                      </div>
+
+                      <button class="accordion" style="font-size:50px; font-family: Monotype Corsiva;">Медицинские энциклопедии</button>
+                      <div class="panel">
+                        <p style="font-size:25px;">На сайте можно найти энциклопедии анализов и инфекций, безопасности лекарств, нетрадиционной медицины, прививок и т.д.</p>
+                        <p style="font-size:25px;"><a href="https://gabr.org/encyclopedia.htm">GABR.ORG/ENCYCLOPEDIA.HTM</a></p>
+                      </div>
+
+                      <button class="accordion" style="font-size:50px; font-family: Monotype Corsiva;">Анатомический словарь</button>
+                      <div class="panel">
+                        <p style="font-size:25px;">Более 8000 слов и словосочетаний: анатомические термины и их латинские аналоги.</p>
+                        <p style="font-size:25px;"><a href="http://ets.ru/udict-l-r-anat-r.htm">ETS.RU/UDICT-L-R-ANAT-R.HTM</a></p>
+                      </div>
+
+                      <button class="accordion" style="font-size:50px; font-family: Monotype Corsiva;">Экономика. Социология. Менеджмент: Глоссарий</button>
+                      <div class="panel">
+                        <p style="font-size:25px;">Более 15000 словарных статей.</p>
+                        <p style="font-size:25px;"><a href="http://ecsocman.hse.ru/">ECSOCMAN.HSE.RU</a></p>
+                      </div>
+
+                      <button class="accordion" style="font-size:50px; font-family: Monotype Corsiva;">Россия в цифрах. Региональный справочник</button>
+                      <div class="panel">
+                        <p style="font-size:25px;">Можно найти показатели уровня жизни, экономического развития, состояния окружающей среды и пр. в различных регионах. Однако данные заканчиваются 2001 годом.</p>
+                        <p style="font-size:25px;"><a href="http://www.sci.aha.ru/cgi-bin/regbase.pl?reg=0&men1=0&men2=0">SCI.AHA.RU/CGI-BIN/REGBASE.PL?REG=0&MEN1=0&MEN2=0</a></p>
+                      </div>
+
+                      <button class="accordion" style="font-size:50px; font-family: Monotype Corsiva;">Бизнес-словарь</button>
+                      <div class="panel">
+                        <p style="font-size:25px;">Этот словарь ориентирован на деловых людей, содержит термины и понятия, связанные в первую очередь с малым предпринимательством.</p>
+                        <p style="font-size:25px;"><a href="http://www.businessvoc.ru/">BUSINESSVOC.RU</a></p>
+                      </div>
+
+                      <button class="accordion" style="font-size:50px; font-family: Monotype Corsiva;">Юридические словари</button>
+                      <div class="panel">
+                        <p style="font-size:25px;">Подборка словарей на сайте "Межреспубликанская коллегия адвокатов": основные уголовно-процессуальные термины, таможенные термины и понятия, термины страхового дела, вексельное законодательство, банковские и финансовые термины.</p>
+                        <p style="font-size:25px;"><a href="http://www.sansan.ru/urslov.htm">SANSAN.RU/URSLOV.HTM</a></p>
+                      </div>
+
+                      <button class="accordion" style="font-size:50px; font-family: Monotype Corsiva;">Flags and Maps of the World. Флаги и карты стран мира</button>
+                      <div class="panel">
+                        <p style="font-size:25px;">Англоязычный сайт.</p>
+                        <p style="font-size:25px;"><a href="http://flagspot.net/flags/index.html">FLAGSPOT.NET/FLAGS/INDEX.HTML</a></p>
+                      </div>
+
+                      <button class="accordion" style="font-size:50px; font-family: Monotype Corsiva;">Мой город - народная энциклопедия городов и регионов России</button>
+                      <div class="panel">
+                        <p style="font-size:25px;">Информация о городах и регионах России. Основное внимание уделяется следующим разделам: социально-экономическая статистика, история, архитектура.</p>
+                        <p style="font-size:25px;"><a href="http://www.mojgorod.ru/">MOJGOROD.RU</a></p>
+                      </div>
+
+                      <button class="accordion" style="font-size:50px; font-family: Monotype Corsiva;">Территориальное устройство России</button>
+                      <div class="panel">
+                        <p style="font-size:25px;">Справочник административно-территориального деления регионов России, статистические данные. Каталог библиографических описаний с поиском по авторам, терминам, названиям публикаций.</p>
+                        <p style="font-size:25px;"><a href="http://www.terrus.ru/begin.shtml">TERRUS.RU/BEGIN.SHTML</a></p>
+                      </div>
+
+                      <button class="accordion" style="font-size:50px; font-family: Monotype Corsiva;">Психологический словарь</button>
+                      <div class="panel">
+                        <p style="font-size:25px;">Включает 1162 статьи отечественных и зарубежных ученых, которые отражают содержание основных разделов психологической науки.</p>
+                        <p style="font-size:25px;"><a href="http://psychology.net.ru/articles/content/dictionary.html">PSYCHOLOGY.NET.RU/ARTICLES/CONTENT/DICTIONARY.HTML</a></p>
+                      </div>
+
+                      <button class="accordion" style="font-size:50px; font-family: Monotype Corsiva;">Словарь гендерных терминов</button>
+                      <div class="panel">
+                        <p style="font-size:25px;">Первое объемное (378 словарных статей) лексикографическое издание, представляющее русскоязычные гендерные термины, а также их англоязычные варианты. В словарь вошли статьи многих исследователей из России и стран ближнего зарубежья.</p>
+                        <p style="font-size:25px;"><a href="http://www.owl.ru/gender/index.htm">OWL.RU/GENDER/INDEX.HTM</a></p>
+                      </div>
+
+                      <button class="accordion" style="font-size:50px; font-family: Monotype Corsiva;">Вузовские WWW серверы России</button>
+                      <div class="panel">
+                        <p style="font-size:25px;">С помощью алфавитного каталога существует возможность зайти на сайты вузов страны.</p>
+                        <p style="font-size:25px;"><a href="http://www.tstu.ru/win/server/vuz/others.htm">TSTU.RU/WIN/SERVER/VUZ/OTHERS.HTM</a></p>
+                      </div>
+
+                      <button class="accordion" style="font-size:50px; font-family: Monotype Corsiva;">Каталог аспирантур</button>
+                      <div class="panel">
+                        <p style="font-size:25px;">Пополняемый каталог аспирантур России, включая аспирантуры Москвы, Санкт-Петербурга и других городов. Данные берутся из открытых источников, преимущество отдается учебным заведениям, имеющим полноценную страницу с информацией для аспирантов на своем интернет-сайте. Каталог вузов с контактной информацией. Номенклатура специальностей.</p>
+                        <p style="font-size:25px;"><a href="http://www.aspirantu.ru/">ASPIRANTU.RU</a></p>
+                      </div>
+
+                      <button class="accordion" style="font-size:50px; font-family: Monotype Corsiva;">Российская педагогическая энциклопедия</button>
+                      <div class="panel">
+                        <p style="font-size:25px;">Электронная версия двухтомного печатного издания Энциклопедии, изданной в 1993 г. (1-ый том) и 1999 г. (2-ой том).</p>
+                        <p style="font-size:25px;"><a href="http://www.otrok.ru/teach/enc/index.php">OTROK.RU/TEACH/ENC/INDEX.PHP</a></p>
+                      </div>
+
+                      <button class="accordion" style="font-size:50px; font-family: Monotype Corsiva;">Словарь терминов по общей и социальной педагогике</button>
+                      <div class="panel">
+                        <p style="font-size:25px;">Cправочник объединяет и дает толкования важнейших понятий общей и социальной педагогики и андрагогики. Адресован социальным работникам, преподавателям и аспирантам. Документ в формате pdf.</p>
+                        <p style="font-size:25px;"><a href="http://window.edu.ru/window/library?p_rid=28673">WINDOW.EDU.RU/WINDOW/LIBRARY?P_RID=28673</a></p>
+                      </div>
+
+                      <button class="accordion" style="font-size:50px; font-family: Monotype Corsiva;">Словарь педагогического обихода</button>
+                      <div class="panel">
+                        <p style="font-size:25px;">Словарь адресован студентам, изучающим педагогические дисциплины. В него вошли статьи по различным дефинициям, используемых в современном образовательном процессе Специфика издания состоит в том, что базовые понятия соотносятся с конкретными педагогическими курсами. Документ в формате pdf.</p>
+                        <p style="font-size:25px;"><a href="http://window.edu.ru/window/library?p_rid=22160">WINDOW.EDU.RU/WINDOW/LIBRARY?P_RID=22160</a></p>
+                      </div>
+
+                      <button class="accordion" style="font-size:50px; font-family: Monotype Corsiva;">Музыкальные термины</button>
+                      <div class="panel">
+                        <p style="font-size:25px;">Небольшой словарик.</p>
+                        <p style="font-size:25px;"><a href="http://www.biometrica.tomsk.ru/ftp/dict/muzic/vocab.htm">BIOMETRICA.TOMSK.RU/FTP/DICT/MUZIC/VOCAB.HTM</a></p>
+                      </div>
+
+                      <button class="accordion" style="font-size:50px; font-family: Monotype Corsiva;">Арт-Азбука</button>
+                      <div class="panel">
+                        <p style="font-size:25px;">Это словарь современного искусства. Помимо энциклопедии терминов и имён, "Арт-Азбука" содержит ссылки на несколько десятков журналов о культуре, страницы художников, крупнейшие мировые арт-центры и музеи. Имеется возможность воспользоваться базой данных критиков, расположенной на сайте галереи.</p>
+                        <p style="font-size:25px;"><a href="http://www.gif.ru/azbuka">GIF.RU/AZBUKA</a></p>
+                      </div>
+
+                      <button class="accordion" style="font-size:50px; font-family: Monotype Corsiva;">Русские словари</button>
+                      <div class="panel">
+                        <p style="font-size:25px;">Интерактивные словари русского языка: толковый словарь русского языка Ожегова, словарь иностранных слов, орфографический, семантический словари, словарь русского арго, словарь русских личных имен, словарь Достоевского, словарь языка Пушкина. Служба русского языка: ответы на вопросы.</p>
+                        <p style="font-size:25px;"><a href="http://www.slovari.ru/">SLOVARI.RU</a></p>
+                      </div>
+
+                      <button class="accordion" style="font-size:50px; font-family: Monotype Corsiva;">Словари</button>
+                      <div class="panel">
+                        <p style="font-size:25px;">Раздел портала "Грамота.ру". Описания различных типов словарей: антропонимических, диалектных, грамматических, исторических, орфоэпических, обратных и др. Интерактивная возможность работы со словарями: орфографическим, толково-словообразовательным, синонимов, русских имен и др.</p>
+                        <p style="font-size:25px;"><a href="http://www.gramota.ru/slovari/"GRAMOTA.RU/SLOVARI/</a></p>
+                      </div>
+
+                      <button class="accordion" style="font-size:50px; font-family: Monotype Corsiva;">Словарь сокращений русского языка</button>
+                      <div class="panel">
+                        <p style="font-size:25px;">Большой словарь сокращений, акронимов, аббревиатур и сложносоставных слов русского языка.</p>
+                        <p style="font-size:25px;"><a href="http://www.sokr.ru/">SOKR.RU/</a></p>
+                      </div>
+
+                      <button class="accordion" style="font-size:50px; font-family: Monotype Corsiva;">Словари на сайте Института русского языка им. В. В . Виноградова</button>
+                      <div class="panel">
+                        <p style="font-size:25px;">На сайте представлен комплекс интерактивных словарей: толковые, орфографический, семантический и др. К услугам посетителей "Служба русского языка" - дежурные лингвисты отвечают здесь на различные вопросы по русскому языку.</p>
+                        <p style="font-size:25px;"><a href="http://www.slovari.ru/default.aspx?s=0&p=221">SLOVARI.RU</a></p>
+                      </div>
+
+                      <button class="accordion" style="font-size:50px; font-family: Monotype Corsiva;">Русская литература и фольклор. Словари и энциклопедии</button>
+                      <div class="panel">
+                        <p style="font-size:25px;">Большой словарь сокращений, акронимов, аббревиатур и сложносоставных слов русского языка.</p>
+                        <p style="font-size:25px;"><a href="http://www.feb-web.ru/feb/feb/dict.htm">FEB-WEB.RU/FEB/FEB/DICT.HTM</a></p>
+                      </div>
+
+                      <button class="accordion" style="font-size:50px; font-family: Monotype Corsiva;">Словари, энциклопедии, справочники</button>
+                      <div class="panel">
+                        <p style="font-size:25px;">Страница Российской Национальной библиотеки содержит многочисленные ссылки на другие подобные ресурсы, а также на отдельные русскоязычные и англоязычные справочные издания по различным отраслям науки и темам.</p>
+                        <p style="font-size:25px;"><a href="http://nlr.ru/res/inv/ic_www/cat_show.php?rid=69">NLR.RU</a></p>
+                      </div>
+
+                      <button class="accordion" style="font-size:50px; font-family: Monotype Corsiva;">Словари и энциклопедии ON-LINE</button>
+                      <div class="panel">
+                        <p style="font-size:25px;">Коллекция известных энциклопедий и словарей: Современная энциклопедия, Большой энциклопедический словарь, Толковый словарь Даля, Толковый словарь Ожегов, Толковый словарь Ушакова, Энциклопедия Брокгауза и Ефрона, Финансовый словарь, Экономический словарь, Англо-русский словарь финансовых терминов, Словарь депозитарных терминов, Словарь антикризисного управления, Словарь геологических терминов, исторический словарь, Биографический словарь. Поиск ведется по заголовкам и содержанию словарных статей, по одному или по нескольким словарям одновременно.</p>
+                        <p style="font-size:25px;"><a href="http://dic.academic.ru/">DIC.ACADEMIC.RU/</a></p>
+                      </div>
+                    </div>
+                </div>
+            </main>
+            <footer style="flex-direction:row">
+              <div class="minicell1">
+                <center><font face="Monotype Corsiva" size="+1"><h1 style="color:darkred">Где нас найти</h1></font></center>
+                <p>603116 г. Нижний Новгород</p>
+                <h3>1 корпус</h3>
+                <p>ул. Московское шоссе, д.1</p>
+                <p>8 (831) 218-22-12 /309</p>
+                <p>Кабинет 213</p>
+                <h3>2 корпуc</h3>
+                <p>ул. Московское шоссе, д. 52а</p>
+                <p>8 (831) 214-21-31</p>
+                <p>Кабинет 32</p>
+                <h3>3 корпуc</h3>
+                <p>ул. Витебская, д. 41</p>
+                <p>8 (831) 218-22-40 /354</p>
+                <p>Кабинет 208</p>
+              </div>
+              <div class="minicell2">
+                <center><font face="Monotype Corsiva" size="+1"><h1 style="color:darkred">Режим работы</h1></font></center>
+                <h3>1 корпус</h3>
+                <p>ПН-ПТ с 8:00 до 17:00</p>
+                <p>СБ с 8:00 до 14:00</p>
+                <p>ВС ВЫХОДНОЙ</p>
+                <h3>2 корпус</h3>
+                <p>ПН-ПТ с 8:00 до 16:30</p>
+                <p>ПЕРЕРЫВ с 13:00 до 13:30</p>
+                <p>СБ-ВС ВЫХОДНОЙ</p>
+                <h3>3 корпус</h3>
+                <p>ПН-ПТ с 8:00 до 17:00</p>
+                <p>СБ с 8:00 до 14:00</p>
+                <p>ВС ВЫХОДНОЙ</p>
+              </div>
+              <div class="minicell3">
+                <div id="map" style="width:100%;height:100%;"></div>
+
+                <script>
+                  var acc = document.getElementsByClassName("accordion");
+                  var i;
+                  
+                  for (i = 0; i < acc.length; i++) {
+                    acc[i].addEventListener("click", function() {
+                      this.classList.toggle("active");
+                      var panel = this.nextElementSibling;
+                      if (panel.style.display === "block") {
+                        panel.style.display = "none";
+                      } else {
+                        panel.style.display = "block";
+                      }
+                    });
+                  }
+                </script>
+                
+                <script>
+                  function myMap() {
+                    var mapCanvas = document.getElementById("map");
+                    var mapOptions = {
+                      center: new google.maps.LatLng(51.5, -0.2), zoom: 10
+                    };
+                    var map = new google.maps.Map(mapCanvas, mapOptions);
+                  }
+                </script>
+
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDR8P72HMX3zllKeeZt8X89dJWMEu0LSX8&callback=myMap" async defer></script>
+              </div>
+            </footer>
+        </div>
+    </body>
+</html>

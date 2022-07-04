@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Библиотека НГК</title>
+        <link rel="stylesheet" href="library_style.css">
+        <link rel="shortcut icon" href="ngk.ico" type="image/x-icon">
+        <!--These 4 external Files are necessary for Owl to function-->
+
+        <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.owlcarousel/1.31/owl.carousel.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.owlcarousel/1.31/owl.theme.css">
+        -->
+
+        <!--This link is both owl CSS files combined into one-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/g/jquery.owlcarousel@1.31(owl.carousel.css+owl.theme.css)">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontawesome/4.6.3/css/font-awesome.min.css">
+
+        <!--<script src="https://cdn.jsdelivr.net/jquery/2.2.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/jquery.owlcarousel/1.31/owl.carousel.min.js"></script>
+        -->
+
+        <!--This tag is both JS files combined-->
+        <script src="https://cdn.jsdelivr.net/g/jquery@2.2.4,jquery.owlcarousel@1.31"></script>
+
+    </head>
+    <body background="books.jpg">
+        <div id="wrapper">
+          <header>
+            <li><a href="library.html">
+              <img src="ngk.jpg" align="left" height="225" width="225">
+            </a></li>
+              <center><font face="Monotype Corsiva" size="+3"><h1 style="color:darkred">Библиотека</h1></font></center>
+              <center><font face="Monotype Corsiva" size="+2"><h1 style="color:darkred">Нижегородского Губернского Колледжа</h1></font></center>
+              <div class="navbar" style="z-index: 2;">
+                <!--Читателям-->
+                <div class="dropdown">
+                  <div class="dropbtn">Читателям</div>
+                  <div class="dropdown-one">
+                    <li><a href="library_izdatelstva.html">
+                      <div class="dItem" href="#">Издательства</div>
+                    </a></li>
+                    <li><a href="https://biblio.ngknn.ru/wp-content/uploads/2021/03/Госты-1.pdf">
+                      <div class="dItem" href="#">ГОСТы</div>
+                    </a></li>
+                    <li><a href="https://biblio.ngknn.ru/wp-content/uploads/2021/09/Положение-о-библиотеке-НГК.pdf">
+                      <div class="dItem" href="#">Положения о библиотеке</div>
+                    </a></li>
+                    <li><a href="https://biblio.ngknn.ru/wp-content/uploads/2019/12/Правила-пользования.pdf">
+                      <div class="dItem" href="#">Правила пользования</div>
+                    </a></li>
+                  </div>
+                </div>
+                <!--Ресурсы-->
+                <div class="dropdown">
+                  <div class="dropbtn">Ресурсы</div>
+                  <!--  Электронные ресурсы -->
+                  <div class="dropdown-one">
+                    <div id="link1" class="dItem" href="#">Электронные ресурсы
+                      <div class="dropdown-two">
+                        <li><a href="library_EBS.html">
+                          <div class="dItem" href="#">Полнотекстовые электронно-библиотечные системы</div>
+                        </a></li>
+                        <li><a href="library_estestvoznanie_i_tehnika.html">
+                          <div class="dItem" href="#">Естествознание и техника</div>
+                        </a></li>
+                        <!-- Гуманитарные науки -->
+                        <div id="link2" class="dItem" href="#">Гуманитарные науки
+                          <div class="dropdown-three">
+                            <li><a href="library_yazikoznanie.html">
+                              <div class="dItem" href="#">Языкознание</div>
+                            </a></li>
+                            <li><a href="library_istoria.html">
+                              <div class="dItem" href="#">История</div>
+                            </a></li>
+                            <li><a href="library_pravo.html">
+                              <div class="dItem" href="#">Право</div>
+                            </a></li>
+                            <li><a href="library_ekonomika.html">
+                              <div class="dItem" href="#">Экономика</div>
+                            </a></li>
+                            <li><a href="library_filosofia.html">
+                              <div class="dItem" href="#">Философия</div>
+                            </a></li>
+                          </div>
+                        </div>
+                        <li><a href="library_hud_litra_i_iskusstvo.html">
+                          <div class="dItem" href="#">Художественная литература и искусство</div>
+                        </a></li>
+                        <li><a href="library_enciclopedii_spravochniki_slovari.html">
+                          <div class="dItem" href="#">Энциклопедии, справочники, словари</div>
+                        </a></li>
+                        <li><a href="library_kraevedenie.html">
+                          <div class="dItem" href="#">Краеведение</div>
+                        </a></li>
+                      </div>
+                    </div>
+                  <!--Периодика-->
+                  <div class="dropdown-one">
+                    <div id="link1" class="dItem" href="#">Периодика
+                      <div class="dropdown-two">
+                        <!--1 корпус-->
+                        <div id="link2" class="dItem" href="#">1 корпус
+                          <div class="dropdown-three">
+                            <li><a href="https://biblio.ngknn.ru/wp-content/uploads/2021/06/09.02.07-Информационные-системы-и-программирование.pdf">
+                              <div class="dItem" href="#">Информационные системы и программирование</div>
+                            </a></li>
+                            <li><a href="https://biblio.ngknn.ru/wp-content/uploads/2021/06/09.02.05-Прикладная-информатика-_по-отраслям_.pdfl">
+                              <div class="dItem" href="#">Прикладная информатика (по отраслям)</div>
+                            </a></li>
+                            <li><a href="https://biblio.ngknn.ru/wp-content/uploads/2021/06/38.02.01-Экономика-и-бухгалтерский-учет-_по-отраслям_.pdf">
+                              <div class="dItem" href="#">Экономика и бухгалтерский учет (по отраслям)</div>
+                            </a></li>
+                            <li><a href="https://biblio.ngknn.ru/wp-content/uploads/2021/06/38.02.03-Операционная-деятельность-в-логистике.pdf">
+                              <div class="dItem" href="#">Операционная деятельность в логистике</div>
+                            </a></li>
+                            <li><a href="https://biblio.ngknn.ru/wp-content/uploads/2021/06/40.02.01-Право-и-организация-социального-обеспечения.pdf">
+                              <div class="dItem" href="#">Право и организация социального обеспечения</div>
+                            </a></li>
+                          </div>
+                        </div>
+                        <!--2 корпус-->
+                        <div id="link2" class="dItem" href="#">2 корпус
+                          <div class="dropdown-three">
+                            <li><a href="https://biblio.ngknn.ru/wp-content/uploads/2021/06/38.02.05-Товароведение-и-экспертиза-качества-потребительских-товаров.pdf">
+                              <div class="dItem" href="#">Товароведение и экспертиза качества потребительских товаров</div>
+                            </a></li>
+                            <li><a href="https://biblio.ngknn.ru/wp-content/uploads/2021/06/38.02.07-Банковское-дело.pdf">
+                              <div class="dItem" href="#">Банковское дело</div>
+                            </a></li>
+                            <li><a href="https://biblio.ngknn.ru/wp-content/uploads/2021/06/46.02.01-Документационное-обеспечение-управления-и-архивоведения.pdf">
+                              <div class="dItem" href="#">Документационное обеспечение управления и архивоведения</div>
+                            </a></li>
+                            <li><a href="https://biblio.ngknn.ru/wp-content/uploads/2021/06/38.02.04-Коммерция-по-отраслям.pdf">
+                              <div class="dItem" href="#">Коммерция (по отраслям)</div>
+                            </a></li>
+                          </div>
+                        </div>
+                        <!--3 корпус-->
+                        <div id="link2" class="dItem" href="#">3 корпус
+                          <div class="dropdown-three">
+                            <li><a href="https://biblio.ngknn.ru/wp-content/uploads/2021/06/04.02.01-Дошкольное-образование.pdf">
+                              <div class="dItem" href="#">Дошкольное образование</div>
+                            </a></li>
+                            <li><a href="https://biblio.ngknn.ru/wp-content/uploads/2021/06/04.02.02-Преподавание-в-начальных-классах.pdf">
+                              <div class="dItem" href="#">Преподавание в начальных классах</div>
+                            </a></li>
+                            <li><a href="https://biblio.ngknn.ru/wp-content/uploads/2021/06/04.02.04-Специальное-дошкольное-образование.pdf">
+                              <div class="dItem" href="#">Специальное дошкольное образование</div>
+                            </a></li>
+                            <li><a href="https://biblio.ngknn.ru/wp-content/uploads/2021/06/53.02.01-Музыкальное-образование.pdf">
+                              <div class="dItem" href="#">Музыкальное образование</div>
+                            </a></li>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>  
+                  </div>
+                </div>
+                <!--События-->
+                <div class="dropdown">
+                  <div class="dropbtn">События</div>
+                  <div class="dropdown-one">
+                    <li><a href="library_bookcrossing.html">
+                      <div class="dItem" href="#">Буккроссинг</div>
+                    </a></li>
+                    <li><a href="library_bolshoy_etnographicheskiy_dicktant.html">
+                      <div class="dItem" href="#">Большой этнографический диктант</div>
+                    </a></li>
+                  </div>
+                </div>
+                <!--Выставочный зал-->
+                <div class="dropdown">
+                  <div class="dropbtn">Выставочный зал</div>
+                  <div class="dropdown-one">
+                    <li><a href="library_znamenatelnye_i_pamyatnye_daty.html">
+                      <div class="dItem" href="#">Знаменательные и памятные даты</div>
+                    </a></li>
+                    <li><a href="library_poznayom_mir_v_iskusstve.html">
+                      <div class="dItem" href="#">Познаём мир в искусстве</div>
+                    </a></li>
+                    <li><a href="library_istoki.html">
+                      <div class="dItem" href="#">К истокам своим прикоснись</div>
+                    </a></li>
+                  </div>
+                </div>
+                <!--Ссылки-->
+                <div class="dropdown">
+                  <div class="dropbtn">Ссылки</div>
+                  <div class="dropdown-one">
+                    <li><a href="https://ngknn.ru">
+                      <div class="dItem" href="#">Сайт НГК</div>
+                    </a></li>
+                    <li><a href="https://vk.com/bibliongknn">
+                      <div class="dItem" href="#">ВКонтакте</div>
+                    </a></li>
+                    <li><a href="https://moodle.ngknn.ru">
+                      <div class="dItem" href="#">Moodle</div>
+                    </a></li>
+                  </div>
+                </div>
+                <!--Поисковая строка-->
+                <div class="search-container" style="float:right;">
+                  <form action="/action_page.php">
+                    <input type="text" placeholder="Поиск по сайту.." name="Поиск">
+                    <button type="submit">Найти</button>
+                  </form>
+                </div> 
+              </div>
+          </header>
+            <main>
+                <div class="prod-slider-container" style="z-index: 1;">
+                    <div class="inner-container">
+                      <div class="slider_header_text">
+                        <center><font face="Monotype Corsiva" size="+3"><h1 style="color:darkred">Издательства</h1></font></center>
+                      </div>
+                      <p>Издательство &#8220;Айрис-пресс&#8221;&nbsp;&nbsp; <a href="http://www.airis.ru/mpage.php">http://www.airis.ru/mpage.php</a></p>
+                      <p>Издательство &#8220;Академия&#8221;&nbsp; <a href="http://www.academia-moscow.ru/">http://www.academia-moscow.ru/</a></p>
+                      <p>Издательство &#8220;Академкнига/учебник&#8221;&nbsp; <a href="http://www.akademkniga.ru/">http://www.akademkniga.ru/</a></p>
+                      <p>Издательство &#8220;АРКТИ&#8221; (дошкольное и школьное образование)&nbsp; <a href="http://www.arkty.ru/">http://www.arkty.ru/</a></p>
+                      <p>Издательство &#8220;Аспект-пресс&#8221; (журналистика, языкознание, гуманитарные науки, экономика)&nbsp;&nbsp; <a href="http://www.aspectpress.ru/">http://www.aspectpress.ru/</a></p>
+                      <p>Издательство &#8220;АСТ&#8221;&nbsp;&nbsp; http://www.ast.ru/ Издательство &#8220;АСТ-пресс&#8221;&nbsp; <a href="http://www.astpress.ru/">http://www.astpress.ru/</a></p>
+                      <p>Издательство &#8220;БИНОМ&#8221; (математика, информатика, физика, химия, биология)&nbsp; <a href="http://www.lbz.ru/">http://www.lbz.ru/</a></p>
+                      <p>Издательство &#8220;БХВ-Петербург&#8221; (информатика, программирование)&nbsp; <a href="http://www.bhv.ru/">http://www.bhv.ru/</a></p>
+                      <p>Издательство &#8220;Вако&#8221; (поурочные разработки, контрольно-измерительные материалы)&nbsp; <a href="http://www.vaco.ru/">http://www.vaco.ru/</a></p>
+                      <p>Издательство &#8220;Вентана-Граф&#8221;&nbsp; <a href="http://www.vgf.ru/">http://www.vgf.ru/</a></p>
+                      <p>Издательство &#8220;Весь Мир&#8221; (общественные и гуманитарные науки)&nbsp; <a href="http://www.vesmirbooks.ru/">http://www.vesmirbooks.ru/</a></p>
+                      <p>Издательство &#8220;Вита-пресс&#8221; (экономика, право, система развивающего обучения Эльконина-Давыдова)&nbsp; <a href="http://www.vita-press.ru/">http://www.vita-press.ru/</a></p>
+                      <p>Издательство &#8220;Владос&#8221; (гуманитарный издательский центр)&nbsp; <a href="http://www.vlados.ru/">http://www.vlados.ru/</a></p>
+                      <p>Издательство &#8220;Высшая школа&#8221;&nbsp; <a href="http://www.vshkola.ru/">http://www.vshkola.ru/</a></p>
+                      <p>Издательство &#8220;Генезис&#8221; (психология)&nbsp; <a href="http://www.knigi-psychologia.com/">http://www.knigi-psychologia.com/</a></p>
+                      <p>Издательство &#8220;Гранд &#8211; ФАИР&#8221; (страноведение)&nbsp; <a href="http://www.grand-fair.ru/">http://www.grand-fair.ru/</a></p>
+                      <p>Издательство &#8220;Дашков и К&#8221; (профессиональное образование)&nbsp;&nbsp; <a href="http://www.dashkov.ru/">http://www.dashkov.ru/</a></p>
+                      <p>Издательство &#8220;Детская литература&#8221;  <a href="http://www.detlit.ru/">http://www.detlit.ru/</a></p>
+                      <p>Издательство &#8220;Дрофа&#8221;&nbsp; <a href="http://www.drofa.ru/">http://www.drofa.ru/</a></p>
+                      <p>Издательство &#8220;Илекса&#8221; <a href="http://www.ilexa.ru/">http://www.ilexa.ru/</a></p>
+                      <p>Издательства &#8220;КАРО&#8221;&nbsp; <a href="http://www.karo.spb.ru/">http://www.karo.spb.ru/</a></p>
+                      <p>Издательство КДУ &#8220;Книжный дом университет&#8221;&nbsp; <a href="https://kdu.bibliotech.ru/">https://kdu.bibliotech.ru/</a></p>
+                      <p>Издательство &#8220;Легион&#8221; <a href="http://www.legionr.ru/">http://www.legionr.ru/</a></p>
+                      <p>Издательство &#8220;Линка-пресс&#8221;&nbsp; (дошкольное образование, начальная школа) <a href="http://linka-press.ru/">http://linka-press.ru/</a></p>
+                      <p>Издательство &#8220;МарТ&#8221;&nbsp; <a href="http://www.martdon.ru/">http://www.martdon.ru/</a></p>
+                      <p>Издательство &#8220;Мнемозина&#8221;&nbsp; <a href="http://www.mnemozina.ru/">http://www.mnemozina.ru/</a></p>
+                      <p>Издательство &#8220;Мозаика-синтез&#8221; (дошкольное образование) <a href="http://www.msbook.ru/">http://www.msbook.ru/</a></p>
+                      <p>Издательство &#8220;Новая волна &#8221;&nbsp; <a href="http://www.newwave.msk.ru/">http://www.newwave.msk.ru/</a></p>
+                      <p>Издательство &#8220;Ось-89&#8221; (экономика и право)&nbsp; <a href="http://www.axis.ru/">http://www.axis.ru/</a></p>
+                      <p>Издательство &#8220;Питер&#8221;&nbsp; (Санкт-Петербург)&nbsp; <a href="http://www.piter.com/">http://www.piter.com/</a></p>
+                      <p>Издательство &#8220;Просвещение&#8221;&nbsp; <a href="http://www.prosv.ru/">http://www.prosv.ru/</a></p>
+                      <p>Издательство &#8220;РОМЭН&#8221;&nbsp; <a href="http://www.rosman.ru/">http://www.rosman.ru/</a></p>
+                      <p>Издательство &#8220;Русское слово&#8221;&nbsp; <a href="http://www.russkoe-slovo.ru/">http://www.russkoe-slovo.ru/</a></p>
+                      <p>Издательство &#8220;Сибирское университетское издательство&#8221; (Новосибирск)&nbsp; <a href="http://www.sup99.ru/">http://www.sup99.ru/</a></p>
+                      <p>Издательство &#8220;СпецЛит&#8221; (Санкт-Петербург, здоровье и медицина)  <a href="http://www.speclit.spb.ru/">http://www.speclit.spb.ru/</a></p>
+                      <p>Издательство &#8220;Учебный центр Перспектива&#8221;&nbsp;&nbsp; <a href="http://www.ucpva.ru/">http://www.ucpva.ru/</a></p>
+                      <p>Издательство &#8220;Учитель&#8221;&nbsp; <a href="http://www.uchitel-izd.ru/">http://www.uchitel-izd.ru/</a></p>
+                      <p>Издательство &#8220;Феникс&#8221; (Ростов-на-Дону)&nbsp; <a href="http://www.phoenixrostov.ru/">http://www.phoenixrostov.ru/</a></p>
+                      <p>Издательство &#8220;Флинта&#8221; <a href="http://www.flinta.ru/">http://www.flinta.ru/</a></p>
+                      <p>Издательство &#8220;Школьная пресса&#8221; (электронные журналы) <a href="http://www.schoolpress.ru/">http://www.schoolpress.ru/</a></p>
+                      <p>Издательство &#8220;Экзамен&#8221; <a href="http://www.examen.biz/">http://www.examen.biz/</a></p>
+                      <p>Издательство &#8220;Эгмонт Россия&#8221;&nbsp; <a href="http://www.egmont.ru/">http://www.egmont.ru/</a></p>
+                      <p>Издательство &#8220;Энас&#8221; <a href="http://www.enas.ru/">http://www.enas.ru/</a></p>
+                      <p>Издательство &#8220;Янтарный сказ&#8221; (Калининград)&nbsp; <a href="http://www.yantskaz.ru/">http://www.yantskaz.ru/</a></p>
+                      <p>Издательство &#8220;Lingua Media&#8221; (немецкая литература и языкознание)&nbsp; <a href="http://www.linguamedia.ru/">http://www.linguamedia.ru/</a></p>
+                      <p>Издательство &#8220;Macmillan English&#8221; (английская литература и языкознание) <a href="http://www.macmillan.ru/">http://www.macmillan.ru/</a></p>
+                      <p>Издательство &#8220;Relod&#8221; (иностранная литература и языкознание)&nbsp; <a href="http://www.relod.ru/">http://www.relod.ru/</a></p>
+                      <p>Издательство &#8220;Titul&#8221; (учебная и дополнительная литература на английском языке)&nbsp; <a href="http://www.titul.ru/central/">http://www.titul.ru/central/</a></p>
+                      <p>Издательство &#8220;Verbum-M&#8221; (переводы, справочная и иностранная литература)&nbsp; <a href="http://www.verbum-m.ru/">http://www.verbum-m.ru/</a></p>
+                      <p>Библиотека ЖЗЛ &#8211; &#8220;Жизнь замечательных людей&#8221;&nbsp; http://zzl.lib.ru/ Мир энциклопедий &#8220;Аванта+&#8221;&nbsp; <a href="http://www.avanta.ru/">http://www.avanta.ru/</a></p>
+                    </div>
+                </div>
+            </main>
+            <footer style="flex-direction:row">
+              <div class="minicell1">
+                <center><font face="Monotype Corsiva" size="+1"><h1 style="color:darkred">Где нас найти</h1></font></center>
+                <p>603116 г. Нижний Новгород</p>
+                <h3>1 корпус</h3>
+                <p>ул. Московское шоссе, д.1</p>
+                <p>8 (831) 218-22-12 /309</p>
+                <p>Кабинет 213</p>
+                <h3>2 корпуc</h3>
+                <p>ул. Московское шоссе, д. 52а</p>
+                <p>8 (831) 214-21-31</p>
+                <p>Кабинет 32</p>
+                <h3>3 корпуc</h3>
+                <p>ул. Витебская, д. 41</p>
+                <p>8 (831) 218-22-40 /354</p>
+                <p>Кабинет 208</p>
+              </div>
+              <div class="minicell2">
+                <center><font face="Monotype Corsiva" size="+1"><h1 style="color:darkred">Режим работы</h1></font></center>
+                <h3>1 корпус</h3>
+                <p>ПН-ПТ с 8:00 до 17:00</p>
+                <p>СБ с 8:00 до 14:00</p>
+                <p>ВС ВЫХОДНОЙ</p>
+                <h3>2 корпус</h3>
+                <p>ПН-ПТ с 8:00 до 16:30</p>
+                <p>ПЕРЕРЫВ с 13:00 до 13:30</p>
+                <p>СБ-ВС ВЫХОДНОЙ</p>
+                <h3>3 корпус</h3>
+                <p>ПН-ПТ с 8:00 до 17:00</p>
+                <p>СБ с 8:00 до 14:00</p>
+                <p>ВС ВЫХОДНОЙ</p>
+              </div>
+              <div class="minicell3">
+                <div id="map" style="width:100%;height:100%;"></div>
+
+                <script>
+                  function myMap() {
+                    var mapCanvas = document.getElementById("map");
+                    var mapOptions = {
+                      center: new google.maps.LatLng(51.5, -0.2), zoom: 10
+                    };
+                    var map = new google.maps.Map(mapCanvas, mapOptions);
+                  }
+                </script>
+
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDR8P72HMX3zllKeeZt8X89dJWMEu0LSX8&callback=myMap" async defer></script>
+              </div>
+            </footer>
+        </div>
+    </body>
+</html>
